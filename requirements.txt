@@ -14,5 +14,4 @@ xgboost
 lightgbm
 joblib
 matplotlib
-pyradiomics
 tensorflow

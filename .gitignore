@@ -1,0 +1,46 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# BraTS datasets and generated medical-image data
+data/
+preprocessed/
+corrected_masks/
+original/
+*.nii
+*.nii.gz
+*.npz
+*.npy
+
+# Archives and trained model artifacts
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.keras
+*.h5
+*.hdf5
+
+# Generated radiomics data and analysis results
+radiomics/
+model_comparison_summary.csv
+gradcam_2d_slices.png
+gradcam_3d_projections.png
+model_architecture_comparison.png
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

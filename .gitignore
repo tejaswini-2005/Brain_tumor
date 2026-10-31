@@ -30,6 +30,7 @@ original/
 *.tar.gz
 *.zip
 *.7z
+*.keras
 *.h5
 *.hdf5
 
